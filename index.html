@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hydrate with your Fish Friend</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <!-- Fishbowl Container -->
+  <div id="fishbowl" class="fishbowl">
+    <div class="fishbowl__pool"></div>
+    <div class="fishbowl__background"></div>
+    <div class="fishbowl__bottom"></div>
+    <div class="fishbowl__decoration">
+      <div class="fishbowl__seaweed fishbowl__seaweed--1"></div>
+      <div class="fishbowl__seaweed fishbowl__seaweed--2"></div>
+      <div class="fishbowl__seaweed fishbowl__seaweed--3"></div>
+    </div>
+    <div class="fishbowl__water">
+      <div id="fish" class="fishbowl__fish">
+        <div class="fishbowl__fish-tail"></div>
+      </div>
+      <div class="fishbowl__water-color"></div>
+    </div>
+    <div class="fishbowl__top"></div>
+    <div id="tap" class="fishbowl__tap">
+      <div class="fishbowl__tap-base"></div>
+      <div class="fishbowl__tap-handle"></div>
+      <div class="fishbowl__tap-stream"></div>
+      <div class="fishbowl__tap-end"></div>
+      <div class="fishbowl__tap-head"></div>
+    </div>
+  </div>
+
+  <!-- Message Display -->
+  <div id="message" class="message">Your fish misses water. Drink up!</div>
+
+  <!-- Warning Message -->
+  <div id="warning" class="fishbowl__warning hidden">Water is running low!</div>
+
+  <!-- Caption Message -->
+  <div id="caption" class="fishbowl__caption hidden message--happy">Remember to stay hydrated!</div>
+
+
+  <!-- Countdown Timer -->
+  <div id="countdown" class="countdown hidden"></div>
+
+  <!-- External JavaScript File -->
+  <script src="./script.js"></script>
+</body>
+</html>
